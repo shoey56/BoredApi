@@ -1,0 +1,55 @@
+body{
+    background-color: moccasin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+select{
+    width: 200px;
+    border-radius: 15px;
+    padding: 2px;
+    margin-top: 5px;
+    background-color: lightgrey;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    margin: 10px;
+}
+
+form{
+    text-align: center;
+}
+
+button{
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 15px;
+    border: solid black 1px;
+    background-color:lightgrey;
+}
+
+p{
+     margin-left: 10px
+}
+
+label{
+    text-align: center;
+    display: block;
+    width: 250px;
+    padding: 5px;   
+}
+
+.activity{
+    background-color:mediumslateblue;
+    border: solid 2px black;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 5px;
+    width: 300px;
+}
+

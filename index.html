@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+       <h1>What should we do?</h1>
+       <form>
+           <label>What type of activity would you like?
+               <select name='type' id='type'>
+                   <option disabled selected value> -- select activity type -- </option>
+                   <option value='education'>Education</option>
+                   <option value='recreational'>Recreational</option>
+                   <option value='social'>Social</option>
+                   <option value='diy'>DIY</option>
+                   <option value='charity'>Charity</option>
+                   <option value='cooking'>Cooking</option>
+                   <option value='relaxation'>Relaxation</option>
+                   <option value='music'>Music</option>
+                   <option value='busywork'>Busy Work</option>
+               </select>
+           </label>
+           <label>How many people are bored?
+            <select name='participants' id='participants'>
+                <option disabled selected value> -- select amount of people -- </option>
+                <option value=1>Only you</option>
+                <option value=2>2 people</option>
+                <option value=3>3 people</option>
+                <option value=4>4 people</option>
+                <option value=5>5 people</option>
+            </select>
+        </label>
+        <label>What price range?
+            <select name='price' id='price'>
+                <option disabled selected value> -- select amount of people -- </option>
+                <option value=1>$</option>
+                <option value=2>$$</option>
+                <option value=3>$$$</option>
+            </select>
+        </label>
+           <button type="submit" id='randomize'>Click for an activity!</button>
+       </form>
+       <section id='activities'></section>
+       <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script type='module' src="script.js" async defer></script>
+        
+    </body>
+</html>
